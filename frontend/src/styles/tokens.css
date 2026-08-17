@@ -1,0 +1,87 @@
+/*
+  Mansaathi design tokens.
+  Palette: soft sage + muted teal against a warm off-white, grounded by
+  dark charcoal text. Chosen to feel calm and clinical-adjacent without
+  being cold — closer to a quiet studio than a SaaS dashboard.
+*/
+:root {
+  /* --- Color: neutrals --- */
+  --color-bg: #faf7f0;
+  --color-bg-raised: #ffffff;
+  --color-bg-muted: #f1ece0;
+  --color-border: #e3ddcd;
+  --color-border-strong: #cfc7b2;
+
+  /* --- Color: ink --- */
+  --color-ink: #2a2a25;
+  --color-ink-soft: #57554c;
+  --color-ink-faint: #8a877a;
+
+  /* --- Color: sage --- */
+  --color-sage: #7e9c79;
+  --color-sage-dark: #5c7a58;
+  --color-sage-light: #e1ead9;
+  --color-sage-tint: #eaf0e6;
+
+  /* --- Color: teal --- */
+  --color-teal: #416a70;
+  --color-teal-dark: #2f4f54;
+  --color-teal-tint: #e6eeee;
+
+  /* --- Color: state --- */
+  --color-error: #a8503b;
+  --color-error-tint: #f6e6e0;
+  --color-success: #4f7a58;
+  --color-success-tint: #e8f0e6;
+  --color-warning: #a3792f;
+  --color-warning-tint: #f5ecdc;
+
+  /* --- Color: mood scale (awful -> great), muted not neon --- */
+  --mood-awful: #a5624f;
+  --mood-low: #b98f5e;
+  --mood-okay: #c2b25a;
+  --mood-good: #8ba668;
+  --mood-great: #5c8a6b;
+
+  /* --- Typography --- */
+  --font-display: 'Fraunces', 'Iowan Old Style', Georgia, serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+  --fs-xs: 0.8125rem;
+  --fs-sm: 0.9375rem;
+  --fs-base: 1rem;
+  --fs-md: 1.125rem;
+  --fs-lg: 1.375rem;
+  --fs-xl: 1.75rem;
+  --fs-2xl: 2.25rem;
+  --fs-3xl: 3rem;
+
+  /* --- Spacing scale --- */
+  --sp-1: 0.25rem;
+  --sp-2: 0.5rem;
+  --sp-3: 0.75rem;
+  --sp-4: 1rem;
+  --sp-5: 1.5rem;
+  --sp-6: 2rem;
+  --sp-7: 2.5rem;
+  --sp-8: 3.5rem;
+  --sp-9: 5rem;
+
+  /* --- Shape --- */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-full: 999px;
+
+  /* --- Elevation: soft and rare, never glassy --- */
+  --shadow-sm: 0 1px 2px rgba(42, 42, 37, 0.06);
+  --shadow-md: 0 4px 16px rgba(42, 42, 37, 0.08);
+  --shadow-focus: 0 0 0 3px rgba(65, 106, 112, 0.28);
+
+  /* --- Motion --- */
+  --ease-standard: cubic-bezier(0.4, 0, 0.2, 1);
+  --duration-fast: 140ms;
+  --duration-base: 220ms;
+
+  --content-width: 1120px;
+}
